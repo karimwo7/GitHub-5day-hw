@@ -570,24 +570,8 @@ video {
   width: 40%;
 }
 
-.w-\[45\%\] {
-  width: 45%;
-}
-
-.w-\[55\%\] {
-  width: 55%;
-}
-
 .justify-between {
   justify-content: space-between;
-}
-
-.rounded {
-  border-radius: 0.25rem;
-}
-
-.rounded-\[20px\] {
-  border-radius: 20px;
 }
 
 .rounded-\[10px\] {
@@ -614,16 +598,24 @@ video {
   background-color: rgb(255 215 0 / var(--tw-bg-opacity, 1));
 }
 
-.p-\[30px\] {
-  padding: 30px;
-}
-
 .p-\[20px\] {
   padding: 20px;
 }
 
+.p-\[30px\] {
+  padding: 30px;
+}
+
+.pb-\[30px\] {
+  padding-bottom: 30px;
+}
+
 .pb-\[40px\] {
   padding-bottom: 40px;
+}
+
+.pl-\[10px\] {
+  padding-left: 10px;
 }
 
 .pl-\[30px\] {
@@ -650,14 +642,6 @@ video {
   padding-top: 50px;
 }
 
-.pb-\[30px\] {
-  padding-bottom: 30px;
-}
-
-.pl-\[10px\] {
-  padding-left: 10px;
-}
-
 .text-center {
   text-align: center;
 }
@@ -666,26 +650,26 @@ video {
   font-size: 15px;
 }
 
-.text-\[40px\] {
-  font-size: 40px;
-}
-
 .text-\[20px\] {
   font-size: 20px;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
 }
 
 .font-extrabold {
   font-weight: 800;
 }
 
-.text-\[white\] {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
 .text-\[gray\] {
   --tw-text-opacity: 1;
   color: rgb(128 128 128 / var(--tw-text-opacity, 1));
+}
+
+.text-\[white\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 @media (min-width: 0px) {
@@ -705,40 +689,20 @@ video {
     width: 100%;
   }
 
-  .xs\:w-\[80\%\] {
-    width: 80%;
-  }
-
-  .xs\:w-\[50\%\] {
-    width: 50%;
-  }
-
   .xs\:w-\[60\%\] {
     width: 60%;
   }
 
-  .xs\:w-\[\] {
-    width: ;
+  .xs\:w-\[80\%\] {
+    width: 80%;
   }
 
-  .xs\:w-\[80\] {
-    width: 80;
-  }
-
-  .xs\:pl-\[30px\] {
-    padding-left: 30px;
-  }
-
-  .xs\:text-center {
-    text-align: center;
+  .xs\:w-\[\%\] {
+    width: %;
   }
 }
 
 @media (min-width: 510px) {
-  .md\:block {
-    display: block;
-  }
-
   .md\:flex {
     display: flex;
   }
@@ -761,5 +725,9 @@ video {
 
   .md\:w-\[55\%\] {
     width: 55%;
+  }
+
+  .md\:justify-around {
+    justify-content: space-around;
   }
 }
